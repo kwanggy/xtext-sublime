@@ -36,6 +36,12 @@ You can change file extension in mwe2 file.
 ###Autocompletion
 ![alt tag](https://cloud.githubusercontent.com/assets/6274392/11694489/5647f3f2-9e78-11e5-8796-3e7ab1149299.png)
 
+###Requirement
+It requires the xtext web integration server to be running.
+
+./gradlew jettyRun
+
+
 ###To Do
 Validator plugin highlights words where the errors are occured and prints the error messages as a comment.Improvement is needed for showing error messages. For example, showing error messages in tooltip boxes. There are tooltip API for sublime text 3 but not for sublime text 2. 
 
